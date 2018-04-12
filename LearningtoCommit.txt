@@ -1,0 +1,76 @@
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~
+$ cd desktop
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop
+$ cd gittest
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git add .
+4
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git commit -m "updated aboutMe.txt
+> Name: Kandance
+> Age: 38
+> git commit -m "updated aboutMe.txt
+Name: Kandance
+Age: 32
+error: pathspec 'aboutMe.txt' did not match any file(s) known to git.
+bash: Name:: command not found
+bash: Age:: command not found
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git commit -m "updated aboutMe.txt
+> Name Kandance Jackson
+> Age: 32
+> Before Coding I was a pharmacy technician
+> Favorite Movie: Hidden Colors
+>
+>
+> git commit -m "updated aboutMe.txt
+Name Kandance Jackson
+Age: 32
+Before Coding I was a pharmacy technician
+Favorite Movie: Hidden Colors
+
+error: pathspec 'aboutMe.txt' did not match any file(s) known to git.
+bash: Name: command not found
+bash: Age:: command not found
+bash: Before: command not found
+bash: Favorite: command not found
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git add .
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git log
+commit 423123b504e1ea79797e280f792e143d1c522e7d (HEAD -> master)
+Author: KandiJ <kandicypher@gmail.com>
+Date:   Wed Apr 11 19:57:12 2018 -0500
+
+    Initial Commit
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git revert --no-edit HEAD
+[master 3b2c06d] Revert "Initial Commit"
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 aboutme.txt
+ delete mode 100644 index.html
+ delete mode 100644 style.css
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git add .
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/gittest (master)
+$ git commit -m "updated aboutMe.txt to add favorite book"
+On branch master
+nothing to commit, working tree clean
+
