@@ -1,0 +1,54 @@
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~
+$ cd desktop/
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop
+$ mkdir dojoassignments
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop
+$ cd dojoassignments
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments
+$ mkdir webfundamentals python mean ruby ios netcore
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments
+$ ls
+ios/  mean/  netcore/  python/  ruby/  webfundamentals/
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments
+$ touch ./ios/about.txt ./mean/about.txt ./netcore/about.txt ./python/about.txt ./ruby/about.txt ./webfundamentals/about.txt
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments
+$ cd webfundamentals
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals
+$ ls
+about.txt
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals
+$ mkdir Git HTML CSS Javascript
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals
+$ touch ./Git/about.txt ./HTML/about.txt ./CSS/about.txt ./Javascript.about.txt
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals
+$ cd html
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals/html
+$ ls
+about.txt
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals/html
+$ touch indentation.html
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals/html
+$ cd ..
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments/webfundamentals
+$ cd ..
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments
+$ ls -r
+webfundamentals/  ruby/  python/  netcore/  mean/  ios/
+
+MrsJackson@LAPTOP-UCI6CR6N MINGW64 ~/desktop/dojoassignments
+$
